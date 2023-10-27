@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Llamada" android:exported="true">
+        <activity android:name=".Llamada" android:exported="false">
 
         </activity>
     </application>
