@@ -50,9 +50,10 @@
     <Button
         android:id="@+id/button5"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="85dp"
-        android:layout_height="58dp"
-        app:icon="@drawable/girar_a_la_derecha"
+        android:layout_width="109dp"
+        android:layout_height="117dp"
+        android:text="VOLVER"
+        app:icon="@drawable/volver"
         app:iconSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
