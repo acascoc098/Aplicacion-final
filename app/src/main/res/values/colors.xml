@@ -3,5 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="verdecillo">#96BA6C</color>
-    <color name="alarma">#19A598</color>
+    <color name="llamada">#19A598</color>
 </resources>
