@@ -29,16 +29,12 @@ class Llamada : AppCompatActivity() {
         btnVolver = findViewById(R.id.button5)
         btnLlamar = findViewById(R.id.button4)
 
-        //companion object {
-          //  const val NUMBER = "697105928"
-        //}
-
         btnVolver.setOnClickListener { view ->
             intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        btnVolver.setOnClickListener {
+        btnLlamar.setOnClickListener {
             requestPermissions()
         }
     }
@@ -75,5 +71,5 @@ class Llamada : AppCompatActivity() {
                 else {
                     Toast.makeText( this, "Necesitas habilitar los permisos", Toast.LENGTH_LONG).show()
                 }
-    }
+        }
 }

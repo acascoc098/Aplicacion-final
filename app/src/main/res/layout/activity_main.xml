@@ -62,4 +62,17 @@
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="76dp"
+        app:icon="@drawable/juego_de_azar"
+        app:iconGravity="textTop"
+        app:iconSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.169" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
